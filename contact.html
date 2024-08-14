@@ -78,13 +78,13 @@
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Power BI Training Tour Of Africa</a>
                     <div class="dropdown-menu bg-light m-0">
-                        <a href="feature.html" class="dropdown-item">Next Event</a>
-                        <a href="quote.html" class="dropdown-item">Booking</a>
+                        <a href="event and bookings.html" class="dropdown-item">Next Event & Bookings</a>
                     </div>
                 </div>
-            </div>
-            <a href="" class="btn btn-primary py-4 px-lg-4 rounded-0 d-none d-lg-block">For Bookings<i class="fa fa-arrow-right ms-3"></i></a>
-        </div>
+                <div>
+                    <a href="event and bookings.html" class="btn btn-primary py-4 px-lg-4 rounded-0 d-none d-lg-block">For Bookings<i class="fa fa-arrow-right ms-3"></i></a>
+                </div>
+                
     </nav>
     <!-- Navbar End -->
 
@@ -112,30 +112,29 @@
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
                     <p class="fs-5 fw-bold text-primary">Contact Us</p>
                     <h1 class="display-5 mb-5">If You Have Any Query, Please Contact Us</h1>
-                    <p class="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p>
-                    <form>
+                    <form action="mailto:info@ousadiaconsulting.com" method="post" enctype="text/plain">
                         <div class="row g-3">
                             <div class="col-md-6">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                    <input type="text" class="form-control" id="name" name="name" placeholder="Your Name">
                                     <label for="name">Your Name</label>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-floating">
-                                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="Your Email">
                                     <label for="email">Your Email</label>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-floating">
-                                    <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
                                     <label for="subject">Subject</label>
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="form-floating">
-                                    <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 100px"></textarea>
+                                    <textarea class="form-control" placeholder="Leave a message here" id="message" name="message" style="height: 100px"></textarea>
                                     <label for="message">Message</label>
                                 </div>
                             </div>
@@ -144,6 +143,7 @@
                             </div>
                         </div>
                     </form>
+                    
                 </div>
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s" style="min-height: 450px;">
                     <div class="position-relative rounded overflow-hidden h-100">
@@ -167,19 +167,31 @@
                     <p class="mb-2"><i class="fa fa-envelope me-3"></i> coachmtj@ousadiaconsulting.com
                     </p>
                     <div class="d-flex pt-2">
-                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href="https://www.facebook.com/OusadiaConsulting" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href="https://www.instagram.com/ousadiaconsulting" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href="https://www.linkedin.com/company/ousadia-consulting" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href="https://twitter.com" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href="https://www.youtube.com" target="_blank">
+                            <i class="fab fa-youtube"></i>
+                        </a>
                     </div>
+                    
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-white mb-4">Services</h4>
-                    <a class="btn btn-link" href="">Communication breakdown</a>
-                    <a class="btn btn-link" href="">Low employee engagement</a>
-                    <a class="btn btn-link" href="">Ineffective Leadership </a>
-                    <a class="btn btn-link" href="">Customer service</a>
-                    <a class="btn btn-link" href="">Conflict and Stress Management</a>
+                    <a class="btn btn-link" href="">Soft skills Training</a>
+                    <a class="btn btn-link" href="">Leadership</a>
+                    <a class="btn btn-link" href="">Communication Adaptability </a>
+                    <a class="btn btn-link" href="">Conflict resolution</a>
+                    <a class="btn btn-link" href="">Team Building</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-white mb-4">Quick Links</h4>
@@ -235,6 +247,38 @@
     <script src="lib/parallax/parallax.min.js"></script>
     <script src="lib/isotope/isotope.pkgd.min.js"></script>
     <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Soft Skills Training
+            document.getElementById('soft-skills-readmore').addEventListener('click', function() {
+                var textElement = document.getElementById('soft-skills-more');
+                var readMoreLink = document.getElementById('soft-skills-readmore');
+                
+                if (textElement.style.display === 'none') {
+                    textElement.style.display = 'block';
+                    readMoreLink.textContent = 'Read Less'; // Change link text to 'Read Less'
+                } else {
+                    textElement.style.display = 'none';
+                    readMoreLink.textContent = 'Read More'; // Change link text back to 'Read More'
+                }
+            });
+        
+            // Power BI Training
+            document.getElementById('power-bi-readmore').addEventListener('click', function() {
+                var textElement = document.getElementById('power-bi-more');
+                var readMoreLink = document.getElementById('power-bi-readmore');
+                
+                if (textElement.style.display === 'none') {
+                    textElement.style.display = 'block';
+                    readMoreLink.textContent = 'Read Less'; // Change link text to 'Read Less'
+                } else {
+                    textElement.style.display = 'none';
+                    readMoreLink.textContent = 'Read More'; // Change link text back to 'Read More'
+                }
+            });
+        });
+        </script>
+        
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>

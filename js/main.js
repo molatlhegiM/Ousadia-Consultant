@@ -74,6 +74,55 @@
         ]
     });
 
+    document.addEventListener("DOMContentLoaded", function() {
+        var toggles = document.querySelectorAll('.read-more-toggle');
+    
+        toggles.forEach(function(toggle) {
+            toggle.addEventListener('click', function() {
+                var parent = this.closest('.about-des-col');
+                var shortText = parent.querySelector('.short-text');
+                var fullText = parent.querySelector('.full-text');
+                
+                if (fullText.style.display === 'none') {
+                    shortText.style.display = 'none';
+                    fullText.style.display = 'block';
+                    this.classList.add('read-more');
+                } else {
+                    shortText.style.display = 'block';
+                    fullText.style.display = 'none';
+                    this.classList.remove('read-more');
+                }
+            });
+        });
+    });
+
+    
+    document.getElementById('reviewForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+    
+        const name = document.getElementById('reviewerName').value;
+        const review = document.getElementById('reviewText').value;
+    
+        const carouselInner = document.querySelector('.carousel-inner');
+    
+        const newReviewItem = document.createElement('div');
+        newReviewItem.classList.add('carousel-item');
+        if (carouselInner.children.length === 0) {
+            newReviewItem.classList.add('active');
+        }
+    
+        newReviewItem.innerHTML = `
+            <h5>${name}</h5>
+            <p>"${review}"</p>
+        `;
+    
+        carouselInner.appendChild(newReviewItem);
+    
+        // Clear the form
+        document.getElementById('reviewForm').reset();
+    });
+        
+
     
 })(jQuery);
 

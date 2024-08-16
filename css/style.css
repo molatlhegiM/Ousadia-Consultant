@@ -649,3 +649,454 @@ h6,
         margin-bottom: 30px;
     }
 }
+/* General Styles for the Services Section */
+.services {
+    padding: 60px 0; /* Adjust padding as needed */
+    background-color: #f9f9f9; /* Light background color */
+}
+
+.services .container {
+    max-width: 1200px; /* Container width */
+}
+
+.services .small-title {
+    font-size: 14px;
+    color: #333;
+}
+
+.services .text-warning {
+    color: #f39c12; /* Custom color for the strong element */
+}
+
+.services h2 {
+    font-size: 36px; /* Main heading size */
+    margin-bottom: 40px; /* Space below heading */
+    color: #333; /* Heading color */
+}
+
+.nav-tabs {
+    border-bottom: none; /* Remove bottom border of tabs */
+}
+
+.nav-tabs .nav-link {
+    border: 1px solid #ddd; /* Border around tab */
+    border-radius: 4px 4px 0 0; /* Rounded corners on top */
+    padding: 15px 20px; /* Padding inside tabs */
+    color: #333; /* Text color */
+    background-color: #fff; /* Tab background color */
+    text-align: left; /* Align text to the left */
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #f39c12; /* Active tab background color */
+    color: #fff; /* Active tab text color */
+    border-color: #f39c12; /* Border color of active tab */
+}
+
+.nav-tabs .nav-link h3 {
+    margin: 0; /* Remove margin from heading */
+    font-size: 18px; /* Heading size inside tab */
+}
+
+.nav-tabs .nav-link span {
+    display: block; /* Make span block for better spacing */
+    font-size: 14px; /* Font size for description */
+    color: #666; /* Description color */
+}
+
+.tab-content {
+    padding: 20px; /* Padding inside tab content */
+    background-color: #fff; /* Background color of content area */
+    border: 1px solid #ddd; /* Border around content */
+    border-radius: 0 0 4px 4px; /* Rounded corners on bottom */
+}
+
+.tab-content img {
+    width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 4px; /* Rounded corners for images */
+}
+
+.tab-content h5 {
+    font-size: 24px; /* Heading size in content */
+    margin: 20px 0; /* Margin above and below heading */
+    color: #333; /* Heading color */
+}
+
+.tab-content p, .tab-content ul {
+    font-size: 16px; /* Font size for paragraphs and lists */
+    color: #666; /* Text color */
+}
+
+.tab-content ul {
+    list-style: disc; /* Bullet points for list */
+    margin-left: 20px; /* Space before list */
+}
+
+.tab-content ul li {
+    margin-bottom: 10px; /* Space between list items */
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+    .nav-tabs .nav-link {
+        padding: 10px 15px; /* Reduce padding on smaller screens */
+    }
+
+    .services h2 {
+        font-size: 28px; /* Smaller heading size on smaller screens */
+    }
+}
+
+@media (max-width: 576px) {
+    .services .container {
+        padding: 0 15px; /* Padding for smaller screens */
+    }
+
+    .nav-tabs .nav-link {
+        font-size: 14px; /* Smaller text size for tabs */
+    }
+
+    .tab-content h5 {
+        font-size: 20px; /* Smaller heading size in content */
+    }
+
+    .tab-content p {
+        font-size: 14px; /* Smaller font size for paragraphs */
+    }
+}
+/* General Styles for the Services Section */
+.services {
+    padding: 60px 0; /* Adjust padding as needed */
+    background-color: #f9f9f9; /* Light background color */
+}
+
+.services .container {
+    max-width: 1200px; /* Container width */
+}
+
+.services .small-title {
+    font-size: 14px;
+    color: #333;
+}
+
+.services .text-warning {
+    color: #f39c12; /* Custom color for the strong element */
+}
+
+.services h2 {
+    font-size: 36px; /* Main heading size */
+    margin-bottom: 40px; /* Space below heading */
+    color: #333; /* Heading color */
+}
+
+.nav-tabs {
+    border-bottom: none; /* Remove bottom border of tabs */
+}
+
+.nav-tabs .nav-link {
+    border: 1px solid #ddd; /* Border around tab */
+    border-radius: 4px 4px 0 0; /* Rounded corners on top */
+    padding: 15px 20px; /* Padding inside tabs */
+    color: #333; /* Text color */
+    background-color: #fff; /* Tab background color */
+    text-align: left; /* Align text to the left */
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #f39c12; /* Active tab background color */
+    color: #fff; /* Active tab text color */
+    border-color: #f39c12; /* Border color of active tab */
+}
+
+.nav-tabs .nav-link h3 {
+    margin: 0; /* Remove margin from heading */
+    font-size: 18px; /* Heading size inside tab */
+}
+
+.nav-tabs .nav-link span {
+    display: block; /* Make span block for better spacing */
+    font-size: 14px; /* Font size for description */
+    color: #666; /* Description color */
+}
+
+.tab-content {
+    padding: 20px; /* Padding inside tab content */
+    background-color: #fff; /* Background color of content area */
+    border: 1px solid #ddd; /* Border around content */
+    border-radius: 0 0 4px 4px; /* Rounded corners on bottom */
+}
+
+.tab-content img {
+    width: 100%; /* Make images responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 4px; /* Rounded corners for images */
+}
+
+.tab-content h5 {
+    font-size: 24px; /* Heading size in content */
+    margin: 20px 0; /* Margin above and below heading */
+    color: #333; /* Heading color */
+}
+
+.tab-content p, .tab-content ul {
+    font-size: 16px; /* Font size for paragraphs and lists */
+    color: #666; /* Text color */
+}
+
+.tab-content ul {
+    list-style: disc; /* Bullet points for list */
+    margin-left: 20px; /* Space before list */
+}
+
+.tab-content ul li {
+    margin-bottom: 10px; /* Space between list items */
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+    .nav-tabs .nav-link {
+        padding: 10px 15px; /* Reduce padding on smaller screens */
+    }
+
+    .services h2 {
+        font-size: 28px; /* Smaller heading size on smaller screens */
+    }
+}
+
+@media (max-width: 576px) {
+    .services .container {
+        padding: 0 15px; /* Padding for smaller screens */
+    }
+
+    .nav-tabs .nav-link {
+        font-size: 14px; /* Smaller text size for tabs */
+    }
+
+    .tab-content h5 {
+        font-size: 20px; /* Smaller heading size in content */
+    }
+
+    .tab-content p {
+        font-size: 14px; /* Smaller font size for paragraphs */
+    }
+}
+
+/* Tab Navigation */
+.nav-tabs {
+    border-bottom: 2px solid #ddd;
+}
+
+.nav-tabs .nav-link {
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    background-color: #fff;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Initial shadow */
+}
+
+.nav-tabs .nav-link:hover {
+    background-color: #f1f1f1;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow on hover */
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #f7f7f7;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Deeper shadow for active tab */
+    z-index: 1; /* Ensure the shadow appears behind the active tab */
+}
+
+/* Tab Content */
+.tab-content {
+    position: relative;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Adding Shadow on Active Tab */
+.tab-content .tab-pane {
+    opacity: 0;
+    transform: scale(0.95);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.tab-content .tab-pane.show.active {
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* Images */
+.tab-content img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Title and Text */
+.tab-content h5 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.tab-content p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.tab-content ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.tab-content ul li {
+    margin-bottom: 10px;
+}
+/* Tab Navigation */
+.nav-tabs {
+    border-bottom: 2px solid #ddd;
+}
+
+.nav-tabs .nav-link {
+    border: none;
+    padding: 15px 20px;
+    cursor: pointer;
+    background-color: #fff;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Initial shadow */
+    margin-bottom: 10px; /* Space between tabs */
+}
+
+.nav-tabs .nav-link:hover {
+    background-color: #f1f1f1;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow on hover */
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #f7f7f7;
+    border-left: 4px solid #00ff48; /* Color indicator for the selected tab */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Deeper shadow for active tab */
+    z-index: 1; /* Ensure the shadow appears behind the active tab */
+}
+
+/* Tab Content */
+.tab-content {
+    position: relative;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Adding Shadow on Active Tab */
+.tab-content .tab-pane {
+    opacity: 0;
+    transform: scale(0.95);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.tab-content .tab-pane.show.active {
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* Images */
+.tab-content img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Title and Text */
+.tab-content h5 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.tab-content p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.tab-content ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.tab-content ul li {
+    margin-bottom: 10px;
+}
+
+/* Styling for Review Section */
+.reviews {
+    position: relative;
+    padding: 100px 0;
+    color: white;
+}
+
+.reviews .video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.reviews #bgVideo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.reviews .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.reviews .banner-container {
+    margin-bottom: 50px;
+}
+
+.reviews .carousel-inner {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+}
+
+.reviews .carousel-item {
+    text-align: center;
+}
+
+.reviews .carousel-item h5 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.reviews .carousel-item p {
+    font-size: 18px;
+}
+
+.booking-container {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 50px;
+    border-radius: 15px;
+}
+

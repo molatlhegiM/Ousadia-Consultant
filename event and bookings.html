@@ -119,10 +119,10 @@
         <div id="bannerCarousel" class="carousel slide container-fluid banner-container text-center" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="img/logo.jpg" alt="Power BI Master Class" class="banner img-fluid">
+                    <img src="img/POWER BI (1).jpg" alt="Power BI Master Class" class="banner img-fluid">
                 </div>
                 <div class="carousel-item">
-                    <img src="img/powerbimasterclass.jpg" alt="Upcoming Event" class="banner img-fluid">
+                    <img src="img/EMPLOYEES.jpg" alt="Upcoming Event" class="banner img-fluid">
                 </div>
                 <!-- Add more banners here -->
             </div>
@@ -137,29 +137,30 @@
         </div>
     
         <!-- Booking Form -->
-        <div class="container booking-container text-center">
-            <h1 class="text-white mb-4">Book Your Spot Now!</h1>
-            <form id="bookingForm" action="https://www.quicket.co.za/events/275029-powerup-with-powerbi/" method="get" target="_blank">
-                <div class="row">
-                    <div class="col-lg-6 mb-3">
-                        <input type="text" name="name" class="form-control" placeholder="Full Name" required>
-                    </div>
-                    <div class="col-lg-6 mb-3">
-                        <input type="email" name="email" class="form-control" placeholder="Email Address" required>
-                    </div>
-                    <div class="col-lg-6 mb-3">
-                        <input type="tel" name="phone" class="form-control" placeholder="Phone Number" required>
-                    </div>
-                    <div class="col-lg-6 mb-3">
-                        <select class="form-control" name="event">
-                            <option value="Event1">Power BI Master Class </option>
-                            <option value="Event2">Coming Soon</option>
-                        </select>
-                    </div>
-                </div>
-                <button type="submit" class="btn btn-primary btn-lg">Proceed to Quicket</button>
-            </form>
+        Copy code
+<div class="container booking-container text-center">
+    <h1 class="text-white mb-4">Book Your Spot Now!</h1>
+    <form id="bookingForm" method="get" target="_blank">
+        <div class="row">
+            <div class="col-lg-6 mb-3">
+                <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+            </div>
+            <div class="col-lg-6 mb-3">
+                <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+            </div>
+            <div class="col-lg-6 mb-3">
+                <input type="tel" name="phone" class="form-control" placeholder="Phone Number" required>
+            </div>
+            <div class="col-lg-6 mb-3">
+                <select class="form-control" name="event" id="eventSelect" required>
+                    <option value="Event1">Power BI Master Class</option>
+                    <option value="Event2">Webinar</option>
+                </select>
+            </div>
         </div>
+        <button type="submit" class="btn btn-primary btn-lg">Proceed to Quicket</button>
+    </form>
+</div>
     </section>
     <!-- Event & Booking Section End -->
     
@@ -175,13 +176,13 @@
                     <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@ousadiaconsulting.com
                     </p>
                     <div class="d-flex pt-2">
-                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href="https://www.facebook.com/OusadiaConsulting" target="_blank">
+                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href="https://web.facebook.com/profile.php?id=61564182590099" target="_blank">
                             <i class="fab fa-facebook-f"></i>
                         </a>
-                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href="https://www.instagram.com/ousadiaconsulting" target="_blank">
+                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href="https://www.instagram.com/ousadiaconsulting/" target="_blank">
                             <i class="fab fa-instagram"></i>
                         </a>
-                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href="https://www.linkedin.com/company/ousadia-consulting" target="_blank">
+                        <a class="btn btn-square btn-outline-light rounded-circle me-2" href="https://www.linkedin.com/company/ousadia-consulting-pty-ltd" target="_blank">
                             <i class="fab fa-linkedin-in"></i>
                         </a>
                         <a class="btn btn-square btn-outline-light rounded-circle me-2" href="https://www.youtube.com" target="_blank">
@@ -321,7 +322,21 @@
             });
         });
         </script>
+        <script>
+            document.getElementById('eventSelect').addEventListener('change', function() {
+                var form = document.getElementById('bookingForm');
+                var selectedEvent = this.value;
         
+                if (selectedEvent === 'Event1') {
+                    form.action = "https://www.quicket.co.za/events/275029-powerup-with-powerbi/";
+                } else if (selectedEvent === 'Event2') {
+                    form.action = "https://www.quicket.co.za/events/276304-the-love-languages-of-communication";
+                }
+            });
+        
+            // Set the form action based on the initial selection
+            document.getElementById('eventSelect').dispatchEvent(new Event('change'));
+        </script>
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>

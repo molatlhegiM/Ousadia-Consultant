@@ -588,10 +588,37 @@ h6,
 
 .banner {
     max-width: 100%;
-    height: auto;
+    height: 50%; /* Reduce the height to half */
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    object-fit: cover; /* Ensure the image covers the entire area without distortion */
 }
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .banner {
+        height: 25%; /* Adjust based on screen size */
+    }
+}
+
+@media (max-width: 992px) {
+    .banner {
+        height: 20%; /* Adjust based on screen size */
+    }
+}
+
+@media (max-width: 768px) {
+    .banner {
+        height: 15%; /* Adjust based on screen size */
+    }
+}
+
+@media (max-width: 576px) {
+    .banner {
+        height: 12.5%; /* Adjust based on screen size */
+    }
+}
+
 
 /* Booking Form Styling */
 .booking-container {

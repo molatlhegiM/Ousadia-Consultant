@@ -32,13 +32,13 @@
     <link href="css/style.css" rel="stylesheet">
 
     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-VP17S2MLC6"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16553453409"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-VP17S2MLC6');
+  gtag('config', 'AW-16553453409');
 </script>
 
 <!-- Google tag (gtag.js) event -->
@@ -158,7 +158,7 @@
     
 <div class="container booking-container text-center">
     <h1 class="text-white mb-4">Book Your Spot Now!</h1>
-    <form id="bookingForm" method="get" target="_blank">
+    <form id="bookingForm" method="get" target="_blank" onsubmit="gtag('event', 'conversion', {'send_to': 'G-VP17S2MLC6'});">
         <div class="row">
             <div class="col-lg-6 mb-3">
                 <input type="text" name="name" class="form-control" placeholder="Full Name" required>
@@ -179,6 +179,7 @@
         <button type="submit" class="btn btn-primary btn-lg">Proceed to Quicket</button>
     </form>
 </div>
+
     </section>
     <!-- Event & Booking Section End -->
     

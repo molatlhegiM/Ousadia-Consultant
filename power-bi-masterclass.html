@@ -31,8 +31,7 @@
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
 
-    
-   <!-- Google tag (gtag.js) -->
+    <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16553453409"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -48,6 +47,7 @@
       // <event_parameters>
     });
   </script>
+
 </head>
 
 <body>
@@ -68,8 +68,11 @@
                 </div>
                 <div class="h-100 d-inline-flex align-items-center">
                     <span class="far fa-envelope me-2"></span>
-                    <span> info@ousadiaconsulting.com</span>
+                    <span>info@ousadiaconsulting.com</span>
                 </div>
+            </div>
+            <div class="col-lg-5 px-5 text-end">
+                
             </div>
         </div>
     </div>
@@ -91,7 +94,6 @@
                 <a href="solutions.html" class="nav-item nav-link">Solutions</a>
                 <a href="contact.html" class="nav-item nav-link">Contact</a>
                 <div class="nav-item dropdown">
-                    
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Power BI Masterclass - Africa Tour</a>
                     <div class="dropdown-menu bg-light m-0">
                         <a href="landingpage/index.html" class="dropdown-item">Power Bi Masterclass Landing Page</a>
@@ -100,236 +102,99 @@
                 </div>
                 <div>
                     <a href="landingpage/index.html" class="btn btn-primary py-4 px-lg-4 rounded-0 d-none d-lg-block">For Bookings<i class="fa fa-arrow-right ms-3"></i></a>
-                </div>
-                
+                </div>                
     </nav>
     <!-- Navbar End -->
 
-    <!-- Carousel Start -->
-    <div class="container-fluid p-0 wow fadeIn" data-wow-delay="0.1s">
-        <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container text-center py-5">
+            <h1 class="display-3 text-white mb-4 animated slideInDown">Next Events and Bookings</h1>
+            <nav aria-label="breadcrumb animated slideInDown">
+                <ol class="breadcrumb justify-content-center mb-0">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Next Events and bookings</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+
+    <!-- Event & Booking Section Start -->
+    <section id="event-booking" class="event-booking">
+        <!-- Video Background -->
+        <div class="video-background">
+            <video autoplay muted loop id="bgVideo">
+                <source src="img/Skills traning.mp4" type="video/mp4">
+            </video>
+            <div class="overlay"></div>
+        </div>
+    
+        <!-- Event Banner -->
+        <div id="bannerCarousel" class="carousel slide container-fluid banner-container text-center" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="w-100" src="img/slider-1.jpg" alt="Image">
-                    <div class="carousel-caption">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-8">
-                                    <h1 class="display-1 text-white mb-5 animated slideInDown">We are a Solution Driven consultants.</h1>
-                                    <a href="" class="btn btn-primary py-sm-3 px-sm-4">Explore More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <img src="img/powerbi.jpg" alt="Power BI Master Class" class="banner img-fluid">
                 </div>
                 <div class="carousel-item">
-                    <img class="w-100" src="img/slider-2.jpg" alt="Image">
-                    <div class="carousel-caption">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-lg-7">
-                                    <h1 class="display-1 text-white mb-5 animated slideInDown">Enhance collaboration and teamwork with us.</h1>
-                                    <a href="" class="btn btn-primary py-sm-3 px-sm-4">Explore More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <img src="img/powerbi2.jpg" alt="Upcoming Event" class="banner img-fluid">
                 </div>
+                <div class="carousel-item">
+                    <img src="img/weekly webinar.jpg" alt="Upcoming Event" class="banner img-fluid">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/webinar 1 (1).jpg" alt="Upcoming Event" class="banner img-fluid">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/webinar 1 (2).jpg" alt="Upcoming Event" class="banner img-fluid">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/webinar3.jpg" alt="Upcoming Event" class="banner img-fluid">
+                </div>
+                <!-- Add more banners here -->
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
-                data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#bannerCarousel" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"
-                data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#bannerCarousel" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
-    </div>
-    <!-- Carousel End -->
-
-    <div class="container-fluid py-5">
-        <div class="container">
-            <div class="row g-5 align-items-center">
-                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-                    <img class="img-fluid animated pulse infinite" src="img/service-6.jpg" style="width: 50%; height: auto;">
-                </div>
-                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                    <h1 class="text-primary mb-4">Masego Malapile <br><span class="fw-light text-dark">CEO, Ousadia Consulting</span></h1>
-                    <p class="mb-4">At Ousadia Consulting, we understand the pressing workforce challenges you face, from communication breakdowns and low employee engagement to ineffective leadership and poor customer service.</p>
-                    <p class="mb-4">Our value proposition is simple yet powerful: we offer tailored training programs designed to address these issues head-on, delivering measurable results that enhance collaboration, boost employee morale, and improve overall performance.</p>
-                    <a class="btn btn-primary py-2 px-4" href="">Regards</a>
-                </div>
-            </div>
-        </div>
-    </div>
     
-
-
-    <!-- Facts Start -->
-    <div class="container-fluid facts my-5 py-5" data-parallax="scroll" data-image-src="img/slider-3.jpg">
-        <div class="container py-5">  </div>
-    </div>
-    <!-- Facts End -->
-
-    <!-- Service Start -->
-    <section class="services section-padding" id="section_3">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-lg-10 col-12 text-center mx-auto mb-5">
-                    <p class="fs-5 fw-bold text-primary">Our Solutions</p>
-
-                    <h2>Explore our Solutions</h2>
-
-                </div>
-
-                <div class="col-lg-6 col-12">
-                    <nav>
-                        <div class="nav nav-tabs flex-column align-items-baseline" id="nav-tab" role="tablist">
-                            <button class="nav-link active" id="nav-business-tab" data-bs-toggle="tab" data-bs-target="#nav-business" type="button" role="tab" aria-controls="nav-business" aria-selected="true">
-                                <h3>Soft Skills</h3>
-
-                                <span> <strong>Leadership Skills:</strong> Develop the confidence and strategies to inspire and guide teams, making impactful decisions that drive success.
-                                </span>
-
-                                <span><strong>Adaptability Skills:</strong> Learn how to navigate and thrive in an ever-changing work environment, turning challenges into opportunities.</span> 
-
-                                <span><strong>Communication Skills:</strong> Master the art of clear and effective communication, ensuring your ideas are heard and understood in any setting.
-                                </span>
-                                
-                            </button>
-
-                            <button class="nav-link" id="nav-strategy-tab" data-bs-toggle="tab" data-bs-target="#nav-strategy" type="button" role="tab" aria-controls="nav-strategy" aria-selected="false">
-                                <h3>Personal and Professional development coaching</h3>
-                                
-                                <span><strong>Confidence Coaching:</strong>Boost your self-esteem and overcome self-doubt with personalized strategies that empower you to achieve your personal and professional goals.
-
-                                </span>
-                                <span><strong>Speaking Coaching:</strong>Enhance your public speaking skills, refine your message, and deliver powerful presentations with confidence and clarity.
-                                </span>
-                                <span><strong>Life Coaching:</strong>Navigate life’s challenges and transitions with guidance that helps you set and achieve meaningful, fulfilling goals.</span>
-                                <span><strong>Team Coaching</strong>Strengthen team dynamics, improve collaboration, and align group efforts to achieve shared objectives effectively.
-                                </span>
-                            </button>
-
-                            <button class="nav-link" id="nav-video-tab" data-bs-toggle="tab" data-bs-target="#nav-video" type="button" role="tab" aria-controls="nav-video" aria-selected="false">
-                                <h3>Power Bi Master Class</h3>
-                                
-                                <span><strong>Power BI Dashboard Development:</strong>Transform your data into actionable insights with custom Power BI dashboards that provide clear, interactive visualizations, enabling informed decision-making and business growth.
-                                </span>
-                                <span><strong>Power BI Training: </strong>Empower yourself or your team with hands-on Power BI training, mastering the skills to analyze data, create impactful reports, and drive data-driven decisions with confidence.</span>
-                            </button>
-                        </div>
-                    </nav>
-                </div>
-
-                <div class="col-lg-6 col-12">
-                    <div class="tab-content" id="nav-tabContent">
-                        <div class="tab-pane fade show active" id="nav-business" role="tabpanel" aria-labelledby="nav-intro-tab">
-                            <img src="img/startup-leader-drawing-flowchart-board-discussing-project.jpg" class="img-fluid" alt="">
-
-                            <h5 class="mt-4 mb-2">Introduction to Soft Skills Training</h5>
-
-                            <p>Unlock the potential to lead with confidence, adapt to changing environments, communicate effectively, manage conflicts constructively, and build cohesive teams that thrive on collaboration and trust</p>
-
-                            <ul>
-                                <li>Conflict Management Skills</li>
-
-                                
-                                <li>Business Strategy and Management</li>
-                            </ul>
-                        </div>
-
-                        <div class="tab-pane fade show" id="nav-strategy" role="tabpanel" aria-labelledby="nav-strategy-tab">
-                            <img src="img/Personal Profe.jpg" class="img-fluid" alt="">
-
-                            <h5 class="mt-4 mb-2">More about Personal and Professional development coaching</h5>
-
-                            <div class="row">
-                                <div class="col-lg-6 col-12">
-                                    <p>Financial Coaching</p>
-                                </div>
-                                <div class="col-lg-6 col-12">
-                                    <p>Career Coaching</p>
-                                </div>
-                                <div class="col-lg-6 col-12">
-                                    <p>Academic Coaching</p>
-                                </div>
-                                <div class="col-lg-6 col-12">
-                                    <p>Transformation Coaching</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="tab-pane fade show" id="nav-video" role="tabpanel" aria-labelledby="nav-video-tab">
-                            <img src="img/young-entrepreneurs-mature-investor-watching-presentation-discussing-project.jpg" class="img-fluid" alt="">
-
-                            <h5 class="mt-4 mb-2">Power Bi Master Class</h5>
-
-                            <p>Learn how to harness the power of data to drive your business decisions and gain a competative edge.</p>
-                        </div>
-
-
-                    </div>
-                </div>
-
+        <!-- Booking Form -->
+    
+<div class="container booking-container text-center">
+    <h1 class="text-white mb-4">Book Your Spot Now!</h1>
+    <form id="bookingForm" method="get" target="_blank" onsubmit="gtag('event', 'conversion', {'send_to': 'G-VP17S2MLC6'});">
+        <div class="row">
+            <div class="col-lg-6 mb-3">
+                <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+            </div>
+            <div class="col-lg-6 mb-3">
+                <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+            </div>
+            <div class="col-lg-6 mb-3">
+                <input type="tel" name="phone" class="form-control" placeholder="Phone Number" required>
+            </div>
+            <div class="col-lg-6 mb-3">
+                <select class="form-control" name="event" id="eventSelect" required>
+                    <option value="Event1">Power BI Master Class</option>
+                    <option value="Event2">Webinar</option>
+                </select>
             </div>
         </div>
+        <button type="submit" class="btn btn-primary btn-lg">Proceed to Quicket</button>
+    </form>
+</div>
+
     </section>
-
-<!-- Service End -->
-    <!-- Quote Start -->
-    <div class="container-fluid quote my-5 py-5" data-parallax="scroll" data-image-src="img/blog-1.jpg">
-        <div class="container py-5">
-            <div class="row justify-content-center">
-                <div class="col-lg-7">
-                    <div class="bg-white rounded p-4 p-sm-5 wow fadeIn" data-wow-delay="0.5s">
-                        <h1 class="display-5 text-center mb-5">Contact Us</h1>
-                        <div class="row g-3">
-                            <div class="col-sm-6">
-                                <div class="form-floating">
-                                    <input type="text" class="form-control bg-light border-0" id="gname" placeholder="Gurdian Name">
-                                    <label for="gname">Your Name</label>
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="form-floating">
-                                    <input type="email" class="form-control bg-light border-0" id="gmail" placeholder="Gurdian Email">
-                                    <label for="gmail">Your Email</label>
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="form-floating">
-                                    <input type="text" class="form-control bg-light border-0" id="cname" placeholder="Child Name">
-                                    <label for="cname">Your Mobile</label>
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="form-floating">
-                                    <input type="text" class="form-control bg-light border-0" id="cage" placeholder="Child Age">
-                                    <label for="cage">Service Type</label>
-                                </div>
-                            </div>
-                            <div class="col-12">
-                                <div class="form-floating">
-                                    <textarea class="form-control bg-light border-0" placeholder="Leave a message here" id="message" style="height: 100px"></textarea>
-                                    <label for="message">Message</label>
-                                </div>
-                            </div>
-                            <div class="col-12 text-center">
-                                <a href="https://wa.me/27648176806" class="btn btn-primary py-3 px-4" target="_blank">Contact via WhatsApp</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <!-- Event & Booking Section End -->
     
-    <!-- Quote End -->
 
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-light footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
@@ -390,7 +255,6 @@
                             <a class="btn btn-link" href="">Transformation Coaching</a>
                         </div>
                     </div>
-
                     <a class="btn btn-link" data-bs-toggle="collapse" href="#softSkillsDropdown" role="button" aria-expanded="false" aria-controls="softSkillsDropdown">
                         Power Bi Master Class
                     </a>
@@ -399,7 +263,7 @@
                             <a class="btn btn-link" href="">Dashboard dev</a>
                             <a class="btn btn-link" href="">Training</a>
                           </div>
-                    </div>
+                        </div>
                 </div>
                 
                 <div class="col-lg-3 col-md-6">
@@ -423,8 +287,9 @@
         </div>
     </div>
     <!-- Footer End -->
-
-
+     
+    
+    
     <!-- Copyright Start -->
     <div class="container-fluid copyright py-4">
         <div class="container">
@@ -488,13 +353,24 @@
             });
         });
         </script>
+        <script>
+            document.getElementById('eventSelect').addEventListener('change', function() {
+                var form = document.getElementById('bookingForm');
+                var selectedEvent = this.value;
         
+                if (selectedEvent === 'Event1') {
+                    form.action = "https://www.quicket.co.za/events/275029-powerup-with-powerbi/";
+                } else if (selectedEvent === 'Event2') {
+                    form.action = "https://www.quicket.co.za/events/279714-mastering-tough-talks/";
+                }
+            });
         
+            // Set the form action based on the initial selection
+            document.getElementById('eventSelect').dispatchEvent(new Event('change'));
+        </script>
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-          
-    
 </body>
 
 </html>

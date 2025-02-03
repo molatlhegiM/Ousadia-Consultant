@@ -60,90 +60,79 @@
                             </div>
                            <div class="header-content">
     <h3>The Institute of Internal Auditors Malawi is bringing the PowerUp with PowerBi Masterclass to you.</h3>
-    <form 
-    action="https://api.web3forms.com/submit" 
-    method="POST" 
-    class="signup-form"
->
-    <!-- Web3Forms Access Key -->
-    <input type="hidden" name="access_key" value="349b4a2f-a8de-4d01-9ed9-4751622739a8">
+    <form action="mailto:info@ousadiaconsulting.com,iiamalawi@iiamalawi.com" method="POST" enctype="text/plain" class="signup-form">
+        <!-- Full Name Field -->
+        <div class="form-group">
+            <label for="full-name">Full Name:</label>
+            <input type="text" id="full-name" name="full_name" placeholder="Enter your full name" required>
+        </div>
     
-    <!-- Email Recipients -->
-    <input type="hidden" name="recipient" value="coachmtj@ousadiaconsulting.com">
+        <!-- Email Address Field -->
+        <div class="form-group">
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+        </div>
     
-    <!-- Full Name Field -->
-    <div class="form-group">
-        <label for="full-name">Full Name:</label>
-        <input type="text" id="full-name" name="full_name" placeholder="Enter your full name" required>
-    </div>
-
-    <!-- Email Address Field -->
-    <div class="form-group">
-        <label for="email">Email Address:</label>
-        <input type="email" id="email" name="email" placeholder="Enter your email address" required>
-    </div>
-
-    <!-- Phone Number Field (Optional) -->
-    <div class="form-group">
-        <label for="phone">Phone Number (Optional):</label>
-        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
-    </div>
-
-    <!-- Job Title/Role Field -->
-    <div class="form-group">
-        <label for="job-title">Job Title/Role:</label>
-        <input type="text" id="job-title" name="job_title" placeholder="Enter your job title or role">
-    </div>
-
-    <!-- Company Name Field (Optional) -->
-    <div class="form-group">
-        <label for="company-name">Company Name (Optional):</label>
-        <input type="text" id="company-name" name="company_name" placeholder="Enter your company name">
-    </div>
-
-    <!-- Experience Level Dropdown -->
-    <div class="form-group">
-        <label for="experience-level">Experience Level:</label>
-        <select id="experience-level" name="experience_level" required>
-            <option value="">Select your experience level</option>
-            <option value="Beginner">Beginner</option>
-            <option value="Intermediate">Intermediate</option>
-            <option value="Advanced">Advanced</option>
-        </select>
-    </div>
-
-    <!-- Goals for Attending Field (Optional) -->
-    <div class="form-group">
-        <label for="goals">Goals for Attending (Optional):</label>
-        <textarea id="goals" name="goals" placeholder="What are your goals for attending the masterclass?" rows="3"></textarea>
-    </div>
-
-    <!-- Consent Checkbox -->
-    <div class="form-group">
-        <input type="checkbox" id="consent" name="consent" required>
-        <label for="consent">I agree to receive communications about the masterclass and related updates.</label>
-    </div>
-
-    <!-- IIA Malawi Membership Status Dropdown -->
-    <div class="form-group">
-        <label for="membership-status">IIA Malawi Membership Status:</label>
-        <select id="membership-status" name="membership_status" required>
-            <option value="">Select membership status</option>
-            <option value="Member">Member</option>
-            <option value="Non-Member">Non-Member</option>
-        </select>
-    </div>
-
-    <!-- Number of Attendees Field -->
-    <div class="form-group">
-        <label for="num-attendees">Number of Attendees:</label>
-        <input type="number" id="num-attendees" name="num_attendees" placeholder="Enter the number of attendees" min="1" required>
-    </div>
-
-    <!-- Submit Button -->
-    <button class="btn" type="submit"><i class="fas fa-paper-plane"></i> Sign Up Now</button>
-</form>
-
+        <!-- Phone Number Field (Optional) -->
+        <div class="form-group">
+            <label for="phone">Phone Number (Optional):</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+        </div>
+    
+        <!-- Job Title/Role Field -->
+        <div class="form-group">
+            <label for="job-title">Job Title/Role:</label>
+            <input type="text" id="job-title" name="job_title" placeholder="Enter your job title or role">
+        </div>
+    
+        <!-- Company Name Field (Optional) -->
+        <div class="form-group">
+            <label for="company-name">Company Name (Optional):</label>
+            <input type="text" id="company-name" name="company_name" placeholder="Enter your company name">
+        </div>
+    
+        <!-- Experience Level Dropdown -->
+        <div class="form-group">
+            <label for="experience-level">Experience Level:</label>
+            <select id="experience-level" name="experience_level" required>
+                <option value="">Select your experience level</option>
+                <option value="Beginner">Beginner</option>
+                <option value="Intermediate">Intermediate</option>
+                <option value="Advanced">Advanced</option>
+            </select>
+        </div>
+    
+        <!-- Goals for Attending Field (Optional) -->
+        <div class="form-group">
+            <label for="goals">Goals for Attending (Optional):</label>
+            <textarea id="goals" name="goals" placeholder="What are your goals for attending the masterclass?" rows="3"></textarea>
+        </div>
+    
+        <!-- Consent Checkbox -->
+        <div class="form-group">
+            <input type="checkbox" id="consent" name="consent" required>
+            <label for="consent">I agree to receive communications about the masterclass and related updates.</label>
+        </div>
+    
+        <!-- IIA Malawi Membership Status Dropdown -->
+        <div class="form-group">
+            <label for="membership-status">IIA Malawi Membership Status:</label>
+            <select id="membership-status" name="membership_status" required>
+                <option value="">Select membership status</option>
+                <option value="Member">Member</option>
+                <option value="Non-Member">Non-Member</option>
+            </select>
+        </div>
+    
+        <!-- Number of Attendees Field -->
+        <div class="form-group">
+            <label for="num-attendees">Number of Attendees:</label>
+            <input type="number" id="num-attendees" name="num_attendees" placeholder="Enter the number of attendees" min="1" required>
+        </div>
+    
+        <!-- Submit Button -->
+        <button class="btn" type="submit"><i class="fas fa-paper-plane"></i> Sign Up Now</button>
+    </form>
     
 </div>
 

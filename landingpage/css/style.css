@@ -557,6 +557,119 @@ input {
 
 
 
+/* Pricing Section */
+.pricing-section {
+    padding: 60px 0;
+    background-color: #ffffff; /* Adjust to match your theme */
+}
+
+.pricing-section .section-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #004d00; /* Matches the green theme */
+}
+
+.pricing-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.pricing-card {
+    background-color: #004d00;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 250px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.pricing-card h3 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.pricing-card .price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.pricing-card:hover {
+    background-color: #002600;
+    transform: scale(1.05);
+}
+
+/* Pricing Section */
+.pricing-section {
+    padding: 60px 0;
+    background-color: #002400; /* Match landing page background */
+}
+
+.pricing-section .section-title {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #FFD700; /* Gold color matching your headings */
+    margin-bottom: 30px;
+}
+
+.pricing-section p {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    color: #ffffff; /* White text for contrast */
+}
+
+/* Pricing Cards */
+.pricing-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.pricing-card {
+    background: #004d00; /* Dark green */
+    color: #FFD700; /* Gold text */
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 250px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.3); /* Gold glow */
+}
+
+.pricing-card h3 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.pricing-card .price {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.pricing-card:hover {
+    background-color: #013101; /* Darker green on hover */
+    transform: scale(1.05);
+}
+
+
+
+
+
+
 /**********************************/
 /********** Footer Style **********/
 /**********************************/

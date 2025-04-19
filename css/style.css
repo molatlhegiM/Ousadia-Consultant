@@ -595,6 +595,12 @@ h6,
 }
 
 
+
+
+
+
+
+
 /* Event & Booking Section Styles */
 .event-booking {
     position: relative;
@@ -1010,6 +1016,9 @@ h6,
     transform: scale(1);
 }
 
+
+
+
 /* Images */
 .tab-content img {
     width: 100%;
@@ -1017,6 +1026,15 @@ h6,
     border-radius: 5px;
     margin-bottom: 20px;
 }
+
+
+
+
+
+
+
+
+
 
 /* Title and Text */
 .tab-content h5 {
@@ -1037,6 +1055,15 @@ h6,
 .tab-content ul li {
     margin-bottom: 10px;
 }
+
+
+
+
+
+
+
+
+
 /* Tab Navigation */
 .nav-tabs {
     border-bottom: 2px solid #ddd;
@@ -1066,6 +1093,14 @@ h6,
     z-index: 1; /* Ensure the shadow appears behind the active tab */
 }
 
+
+
+
+
+
+
+
+
 /* Tab Content */
 .tab-content {
     position: relative;
@@ -1075,6 +1110,15 @@ h6,
     padding: 20px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+
+
+
+
+
+
+
+
 
 /* Adding Shadow on Active Tab */
 .tab-content .tab-pane {
@@ -1088,6 +1132,13 @@ h6,
     transform: scale(1);
 }
 
+
+
+
+
+
+
+
 /* Images */
 .tab-content img {
     width: 100%;
@@ -1095,6 +1146,15 @@ h6,
     border-radius: 5px;
     margin-bottom: 20px;
 }
+
+
+
+
+
+
+
+
+
 
 /* Title and Text */
 .tab-content h5 {
@@ -1115,6 +1175,19 @@ h6,
 .tab-content ul li {
     margin-bottom: 10px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Styling for Review Section */
 .reviews {

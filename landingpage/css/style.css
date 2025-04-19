@@ -602,7 +602,7 @@ input {
 }
 
 .pricing-card:hover {
-    background-color: #002600;
+    background-color: #f5faf5;
     transform: scale(1.05);
 }
 

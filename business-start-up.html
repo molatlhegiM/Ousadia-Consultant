@@ -47,29 +47,76 @@
       // <event_parameters>
     });
   </script>
-<style>
-    .hero-banner {
-        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
-                    url('') no-repeat center center/cover;
-        color: white;
-        padding: 100px 0;
-        text-align: center;
-    }
-    .card-icon {
-        font-size: 2rem;
-        color: #007BFF;
-        margin-bottom: 15px;
-    }
-    .section-title {
-        font-size: 2.2rem;
-        font-weight: 700;
-        margin-bottom: 1rem;
-    }
-    .bg-alt {
-        background-color: #f8f9fa;
-    }
-</style>
 
+<style>
+    body {
+      background-color: #fefefe;
+      font-family: 'Segoe UI', sans-serif;
+      color: #333;
+    }
+
+    .header-section {
+      text-align: center;
+      margin-top: 4rem;
+      margin-bottom: 3rem;
+    }
+
+    .section-title {
+      font-weight: bold;
+      font-size: 2.5rem;
+      color: #003366;
+      margin-bottom: 1rem;
+    }
+
+    .sub-title {
+      font-size: 1.2rem;
+      color: #666;
+    }
+
+    .service-card {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      padding: 25px;
+      height: 100%;
+      transition: all 0.3s ease;
+      box-shadow: 0 0 0 rgba(0,0,0,0);
+      text-align: center;
+    }
+
+    .service-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+      border-color: #ff6600;
+    }
+
+    .service-icon {
+      font-size: 2.2rem;
+      color: #ff6600;
+      margin-bottom: 15px;
+    }
+
+    .service-title {
+      font-size: 1.2rem;
+      font-weight: 600;
+      margin-bottom: 10px;
+      color: #003366;
+    }
+
+    .service-description {
+      font-size: 0.95rem;
+      color: #555;
+    }
+
+    .cta-button {
+      margin-top: 3rem;
+      text-align: center;
+    }
+
+    .row-gap {
+      row-gap: 2rem;
+    }
+  </style>
 
 
 </head>
@@ -170,7 +217,7 @@
     <!-- Page Header Start -->
     <div class="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container text-center py-5">
-            <h1 class="display-3 text-white mb-4 animated slideInDown">Youth Development</h1>
+            <h1 class="display-3 text-white mb-4 animated slideInDown">Business Start-Up Services</h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 
             </nav>
@@ -180,77 +227,72 @@
 
 
     <!-- Event & Booking Section Start -->
+     
     
-    
-    <!-- Intro -->
-    <section class="py-5">
-        <div class="container">
-            <p class="lead text-center mb-4">
-                Our Youth Development Program supports learners from Grade 8 to university through skills-building, real-world exposure, and life-changing experiences. Whether online or in-person, we tailor each program to suit your needs.
-            </p>
+    <div class="container py-5">
+        <!-- Heading Section -->
+        <div class="header-section">
+          <h1 class="section-title"> Business Start-Up Services</h1>
+          <p class="sub-title">Helping You Launch with Confidence</p>
         </div>
-    </section>
     
-    <!-- What's Included -->
-    <section class="bg-alt py-5">
-        <div class="container">
-            <h2 class="section-title text-center">What’s Included</h2>
-            <div class="row g-4 mt-4">
-                <!-- Corporate Programs -->
-                <div class="col-md-4">
-                    <div class="card h-100 shadow-sm">
-                        <div class="card-body text-center">
-                            <div class="card-icon"><i class="fas fa-building"></i></div>
-                            <h5 class="card-title"> Corporate Programs</h5>
-                            <ul class="list-unstyled text-start">
-                                <li>• Career days & mentorship</li>
-                                <li>• Skills development workshops</li>
-                                <li>• Workplace exposure</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!-- Internships -->
-                <div class="col-md-4">
-                    <div class="card h-100 shadow-sm">
-                        <div class="card-body text-center">
-                            <div class="card-icon"><i class="fas fa-briefcase"></i></div>
-                            <h5 class="card-title"> Internships & Learnerships</h5>
-                            <p>We place youth in real working environments to build experience, confidence, and employability.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Camps -->
-                <div class="col-md-4">
-                    <div class="card h-100 shadow-sm">
-                        <div class="card-body text-center">
-                            <div class="card-icon"><i class="fas fa-campground"></i></div>
-                            <h5 class="card-title"> Youth Camps</h5>
-                            <ul class="list-unstyled text-start">
-                                <li>• Leadership & teamwork</li>
-                                <li>• Entrepreneurship</li>
-                                <li>• Life skills & personal growth</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+        <!-- Service Cards -->
+        <div class="row row-gap g-4 mb-4">
+          <div class="col-md-4">
+            <div class="service-card">
+              <div class="service-icon">📝</div>
+              <h5 class="service-title">Company Registration</h5>
+              <p class="service-description">Fast, reliable registration so you can get your business up and running legally.</p>
             </div>
-        </div>
-    </section>
+          </div>
+          <div class="col-md-4">
+            <div class="service-card">
+              <div class="service-icon">✉️</div>
+              <h5 class="service-title">Company Email Setup</h5>
+              <p class="service-description">Branded email addresses that build trust and keep your communication professional.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-card">
+              <div class="service-icon">🌐</div>
+              <h5 class="service-title">Website Design & Development</h5>
+              <p class="service-description">Modern, responsive websites tailored to your brand, goals, and audience.</p>
+            </div>
+          </div>
     
-    <!-- Flexible Formats -->
-       
-    <!-- CTA Section -->
-    <section class="bg-alt py-5 text-center">
-        <div class="container">
-            <h2 class="section-title">Let’s Work Together</h2>
-            <p class="lead">We collaborate with schools, companies, and communities to create real impact.</p>
-            <a href="contact.html" class="btn btn-primary px-4 py-2 mt-3">Book a Session</a>
+          <div class="col-md-4">
+            <div class="service-card">
+              <div class="service-icon">🎨</div>
+              <h5 class="service-title">Logo Design</h5>
+              <p class="service-description">Custom logos that reflect your brand identity and make a lasting impression.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-card">
+              <div class="service-icon">📱</div>
+              <h5 class="service-title">Social Media Setup</h5>
+              <p class="service-description">Professional profiles created across key platforms for visibility and reach.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-card">
+              <div class="service-icon">🗓️</div>
+              <h5 class="service-title">Content Creation</h5>
+              <p class="service-description">High-quality, on-brand content to help you engage your audience and grow online.</p>
+            </div>
+          </div>
         </div>
-    </section>
+    
+        <!-- CTA -->
+        <div class="cta-button">
+          <a href="contact.html" class="btn btn-outline-primary px-4 py-2">Get Started Today</a>
+        </div>
+      </div>
+    
     
     <!-- Event & Booking Section End -->
-   
+    
+
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-light footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
@@ -344,6 +386,7 @@
     <!-- Footer End -->
      
     
+    
     <!-- Copyright Start -->
     <div class="container-fluid copyright py-4">
         <div class="container">
@@ -422,12 +465,10 @@
             // Set the form action based on the initial selection
             document.getElementById('eventSelect').dispatchEvent(new Event('change'));
         </script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
 </body>
 
 </html>

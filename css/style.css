@@ -1034,10 +1034,160 @@ h6,
     margin-bottom: 20px;
 }
 
+/* Put this *after* your other CSS (inline or in style.css) */
+#team-building .grid-box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    min-height: 220px;
+    transition: all 0.3s ease;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  }
+  
+  #team-building .grid-box:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    border-color: #ff6600;
+  }
+  
 
 
+  body { outline: 5px dashed hotpink !important; }
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+  }
 
+  #team-building {
+    padding: 4rem 1rem;
+  }
 
+  .section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #003366;
+    text-align: center;
+  }
+
+  .sub-title {
+    font-size: 1.2rem;
+    color: #666;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .divider {
+    height: 2px;
+    background-color: #ddd;
+    margin: 3rem 0;
+  }
+
+  .section-subtitle {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #003366;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+
+  .focus-areas {
+    list-style-type: disc;
+    margin-left: 2rem;
+    font-size: 1.1rem;
+  }
+
+  .grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    margin-bottom: 3rem;
+  }
+
+  .activity-category {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+
+  .activity-category:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  }
+
+  .activity-category h4 {
+    font-size: 1.4rem;
+    color: #003366;
+    margin-bottom: 1rem;
+  }
+
+  .activity-category ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 1rem;
+    color: #555;
+  }
+
+  .cta-buttons {
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  .cta-btn {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 1rem 2rem;
+    margin: 0.5rem;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    display: inline-block;
+    transition: background-color 0.3s;
+  }
+
+  .cta-btn:hover {
+    background-color: #cc5200;
+  }
+
+  @media (max-width: 768px) {
+    .grid-container {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .activity-category {
+      width: 90%;
+      margin-bottom: 2rem;
+    }
+  }
+
+  /* Put this *after* your other CSS (inline or in style.css) */
+#team-building .grid-box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    min-height: 220px;
+    transition: all 0.3s ease;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  }
+  
+  #team-building .grid-box:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    border-color: #ff6600;
+  }
+  
 
 
 

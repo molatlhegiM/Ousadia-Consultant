@@ -163,7 +163,6 @@ h6,
 }
 
 
-/*** Header ***/
 .carousel-caption {
     top: 0;
     left: 0;
@@ -173,30 +172,49 @@ h6,
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: rgba(15, 66, 41, .6);
+    background: rgba(15, 66, 41, 0.6);
     z-index: 1;
+    padding: 0 15px;
 }
 
-.carousel-control-prev,
-.carousel-control-next {
-    width: 15%;
-}
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    width: 3rem;
-    height: 3rem;
-    border-radius: 3rem;
-    background-color: var(--primary);
-    border: 10px solid var(--primary);
+.carousel-item video {
+    object-fit: cover;
+    height: 70vh;
 }
 
 @media (max-width: 768px) {
-    #header-carousel .carousel-item {
-        position: relative;
-        min-height: 450px;
+    .carousel-item video {
+        height: 50vh;
     }
-    
+
+    .carousel-caption h1 {
+        font-size: 1.8rem;
+    }
+}
+
+#header-carousel .carousel-item img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Page Header for Inner Pages */
+.page-header {
+    background: linear-gradient(rgba(15, 66, 41, .6), rgba(15, 66, 41, .6)), url(../img/slider-3.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.page-header .breadcrumb-item+.breadcrumb-item::before {
+    color: var(--light);
+}
+
+.page-header .breadcrumb-item,
+.page-header .breadcrumb-item a {
+    font-size: 18px;
+    color: var(--light);
+}
+
     #header-carousel .carousel-item img {
         position: absolute;
         width: 100%;

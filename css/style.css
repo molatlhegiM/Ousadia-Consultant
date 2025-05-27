@@ -201,7 +201,7 @@ h6,
 
 /* Page Header for Inner Pages */
 .page-header {
-    background: linear-gradient(rgba(15, 66, 41, .6), rgba(15, 66, 41, .6)), url(../img/slider-3.jpg) center center no-repeat;
+    background:  url(../img/03.jpg) center center no-repeat;
     background-size: cover;
 }
 
@@ -224,7 +224,7 @@ h6,
 
 
 .page-header {
-    background: linear-gradient(rgba(28, 114, 72, 0.492), rgba(32, 125, 80, 0.366)), url(../img/slider-3.jpg) center center no-repeat;
+    background: linear-gradient(rgba(28, 114, 72, 0.492), rgba(32, 125, 80, 0.366)), url(../img/03.jpg) center center no-repeat;
     background-size: cover;
 }
 

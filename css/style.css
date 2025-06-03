@@ -1,3 +1,11 @@
+/*
+  © 2025 Andries Molatlhegi (M-Sithole Digital Agency)
+  Licensed under the MIT License.
+  https://opensource.org/licenses/MIT
+*/
+
+
+
 /********** Template CSS **********/
 :root {
     --primary: #348E38;
@@ -103,13 +111,14 @@ h6,
 }
 
 .navbar .navbar-nav .nav-link {
-    margin-right: 35px;
+    margin-right: 20px; /* reduced from 35px */
     padding: 25px 0;
     color: var(--dark);
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
-    outline: none;
+    white-space: nowrap;
 }
+
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
@@ -153,6 +162,13 @@ h6,
         visibility: hidden;
         transition: .5s;
     }
+
+    @media (min-width: 992px) {
+  .navbar .navbar-nav {
+    flex-wrap: wrap;
+  }
+}
+
 
     .navbar .nav-item:hover .dropdown-menu {
         top: 100%;
@@ -511,6 +527,12 @@ h6,
 }
 
 
+a.text-decoration-none {
+  color: inherit;
+}
+a.text-decoration-none:hover {
+  color: inherit;
+}
 
 
 
